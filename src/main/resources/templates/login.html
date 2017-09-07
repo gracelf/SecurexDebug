@@ -8,11 +8,12 @@
     <title>Bootstrap 101 Template</title>
 
     <th:block th:replace="base :: head"></th:block>
+    <link rel="stylesheet" href="../../css/additionalcss.css">
 </head>
 <body>
 <th:block th:replace="base :: nav"></th:block>
 
-<div class="container">
+<div class="container" style="padding-top: 50px">
 
     <div class="starter-template">
         <h1>Securex</h1>
@@ -30,6 +31,8 @@
         <div><label> Password: <input type="password" name="password"/> </label></div>
         <div><input type="submit" value="Sign In"/></div>
     </form>
+
+
 </div><!-- /.container -->
 
 <th:block th:replace="base :: footlinks"></th:block>
